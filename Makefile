@@ -1,5 +1,5 @@
 PROFILE=$(shell ls -d $(HOME)/.thunderbird/*.Testing)
 
-$(PROFILE)/extensions/thunderbird-message-filter-import-export@emagii.com:
+$(PROFILE)/extensions/filtersimportexport@emagii.com:
 	@mkdir	-p	"$(PROFILE)/extension"
-	@echo	"$(PWD)/thunderbird-message-filter-import-export@emagii.com"	>	$@	
+	@echo	"$(PWD)/filtersimportexport@emagii.com"	>	$@
