@@ -1,0 +1,3 @@
+content	thunderbird-message-filter-import-export	content/
+
+overlay chrome://messenger/content/messenger.xul chrome://thunderbird-message-filter-import-export/content/import-export.xul
